@@ -7,7 +7,8 @@ Primero instalar todos los paquetes a usar
 $ npm install
 ```
 ***
-El mensajero 1 debe de correr estos comandos en dos terminales distintas
+### El mensajero 1 
+Debe de correr estos comandos en dos terminales distintas
 
 Este comando es para la aplicación de mandar mensajes
 ```
@@ -21,7 +22,8 @@ $ node receiver1.js
 Las imágenes de ejemplo:
 
 ***
-El mensajero 2 debe de correr estos comandos en dos terminales distintas
+### El mensajero 2 
+Debe de correr estos comandos en dos terminales distintas
 
 Este comando es para la aplicación de mandar mensajes
 ```
