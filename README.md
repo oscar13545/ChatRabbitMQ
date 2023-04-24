@@ -15,6 +15,7 @@ Este comando es para la aplicación de mandar mensajes
 $ node sender1.js
 ```
 ![Sender1](./image/Sender1.png)
+
 Este comando sirve para ver los mensajes recibidos:
 
 ```
