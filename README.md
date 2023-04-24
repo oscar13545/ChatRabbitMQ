@@ -14,12 +14,13 @@ Este comando es para la aplicación de mandar mensajes
 ```
 $ node sender1.js
 ```
+![Sender1](./image/sender1.png)
 Este comando sirve para ver los mensajes recibidos:
 
 ```
 $ node receiver1.js
 ```
-Las imágenes de ejemplo:
+![Receiver1](./image/Receiver1.png)
 
 ***
 ### El mensajero 2 
@@ -35,7 +36,7 @@ Este comando sirve para ver los mensajes recibidos:
 $ node receiver2.js
 ```
 Las imágenes de ejemplo:
-![Receiver1](./image/Receiver1.png)
+
 
 
 ***
