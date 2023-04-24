@@ -36,7 +36,7 @@ Las imágenes de ejemplo:
 
 
 ***
-Funcionamiento
+### Funcionamiento
 
 Esta aplicación lo que hace es que la parte sender tiene un while el cual dentro de ella pide al cliente introducir la cadena que quiere enviar, y la forma de romber el while y hacer que termine la aplicación es mandando una cadena vacía, pero si la cadena no es vacía llama a una función llamada sendMessage que se espera que termine de la función, esta función lo que hace es esperar utilizar la API de Rabbit para enviar el mensaje, y utiliza una promesa para poder usar las funciones async, en la cual mediante reject y resolve ayuda a saber si la función fue exitosa o no.
 
