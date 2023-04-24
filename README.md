@@ -35,6 +35,7 @@ Este comando sirve para ver los mensajes recibidos:
 $ node receiver2.js
 ```
 Las imágenes de ejemplo:
+![My Image](./image/receiver1.png)
 
 
 ***
