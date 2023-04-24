@@ -31,17 +31,19 @@ Este comando es para la aplicación de mandar mensajes
 ```
 $ node sender2.js
 ```
+![Sender2](./image/Sender2.png)
+
 Este comando sirve para ver los mensajes recibidos:
 
 ```
 $ node receiver2.js
 ```
-Las imágenes de ejemplo:
+![Receiver2](./image/Receiver2.png)
 
 
 
 ***
-### Funcionamiento
+## Funcionamiento
 
 Esta aplicación lo que hace es que la parte sender tiene un while el cual dentro de ella pide al cliente introducir la cadena que quiere enviar, y la forma de romber el while y hacer que termine la aplicación es mandando una cadena vacía, pero si la cadena no es vacía llama a una función llamada sendMessage que se espera que termine de la función, esta función lo que hace es esperar utilizar la API de Rabbit para enviar el mensaje, y utiliza una promesa para poder usar las funciones async, en la cual mediante reject y resolve ayuda a saber si la función fue exitosa o no.
 
