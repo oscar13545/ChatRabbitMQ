@@ -1,11 +1,12 @@
-# Chat RabbitMQ
-Chat para dos personas que utiliza RabbitMQ para no perder paquetes, la aplicación se divide en mensajero 1 y mensajero 2
+# Chat RabbitMQ con AWS
+Chat para dos personas que utiliza RabbitMQ en AWS para no perder paquetes, la aplicación se divide en mensajero 1 y mensajero 2
 
 Primero instalar todos los paquetes a usar
 
 ```
 $ npm install
 ```
+Luego en la consola de Amazon crear un servidor RabbitMQ en la parte de Amazon MQ, y con el link generado sustituirlo en las aplicaciones de receiver1, receiver2, sender1, sender2, en la parte de URI, para hacer que la aplicación use el servidor Rabbit de Amazon Web Services
 ***
 ### El mensajero 1 
 Debe de correr estos comandos en dos terminales distintas
