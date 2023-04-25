@@ -1,8 +1,8 @@
 const amqp = require('amqplib/callback_api');
 // Local
-// const uri = "amqp://guest:guest@localhost:32773"
+//const uri = "amqp://guest:guest@localhost:32773";
 // AWS
-//const uri =  "<AWS_link>"
+const uri =  "<AWS_link>";
 
 console.log("-----> Conversacion con Mensajero 1 <-----");
 amqp.connect(uri, (err, con)=>{
