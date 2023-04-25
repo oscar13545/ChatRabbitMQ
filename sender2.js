@@ -3,9 +3,9 @@ const readline = require('readline-sync');
 
 // amqp://<user>?:<password>?@?<host>:<port>?
 // Local
- const uri = 'amqp://guest:guest@localhost:32773';
-// AWS 
-//const uri ="amqps://oscar:abcdefg123456@b-a73d739b-641e-4a6a-82f9-c0ad212bd8eb.mq.us-east-1.amazonaws.com:5671";
+//const uri = "amqp://guest:guest@localhost:32773";
+// AWS
+const uri =  "<AWS_link>";
 
 console.log("---------------------------");
 console.log("Eres el mensajero 2");
